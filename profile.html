@@ -69,7 +69,7 @@
                                                 </a>
                                         </li>
                                         <li class="sidebar-menu__item">
-                                                <a href="student-courses.html" class="sidebar-menu__link">
+                                                <a href="#" class="sidebar-menu__link">
                                                         <span class="icon"><i class="ph ph-graduation-cap"></i></span>
                                                         <span class="text">Courses</span>
                                                 </a>
@@ -631,25 +631,37 @@
                                                 <div class="card-body">
                                                         <form action="#">
                                                                 <div class="row gy-4">
-                                                                        <div class="col-sm-6 col-xs-6">
+                                                                        <h6 class="mb-2 text-main-600 text-uppercase"><i
+                                                                                        class="ph-fill ph-user-circle"></i>
+                                                                                Personal Info</h6>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="name"
+                                                                                        class="form-label mb-8 h6">Full
+                                                                                        Name</label>
+                                                                                <input type="text"
+                                                                                        class="form-control py-11"
+                                                                                        name="name" id="name"
+                                                                                        placeholder="Enter Full Name">
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
                                                                                 <label for="fname"
-                                                                                        class="form-label mb-8 h6">First
+                                                                                        class="form-label mb-8 h6">Father's
                                                                                         Name</label>
                                                                                 <input type="text"
                                                                                         class="form-control py-11"
-                                                                                        id="fname"
-                                                                                        placeholder="Enter First Name">
+                                                                                        name="fname" id="fname"
+                                                                                        placeholder="Enter Father's  Name">
                                                                         </div>
-                                                                        <div class="col-sm-6 col-xs-6">
-                                                                                <label for="lname"
-                                                                                        class="form-label mb-8 h6">Last
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="mname"
+                                                                                        class="form-label mb-8 h6">Mother's
                                                                                         Name</label>
                                                                                 <input type="text"
                                                                                         class="form-control py-11"
-                                                                                        id="lname"
-                                                                                        placeholder="Enter Last Name">
+                                                                                        name="mname" id="mname"
+                                                                                        placeholder="Enter Mother's  Name">
                                                                         </div>
-                                                                        <div class="col-sm-6 col-xs-6">
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
                                                                                 <label for="email"
                                                                                         class="form-label mb-8 h6">Email</label>
                                                                                 <input type="email"
@@ -657,7 +669,7 @@
                                                                                         id="email"
                                                                                         placeholder="Enter Email">
                                                                         </div>
-                                                                        <div class="col-sm-6 col-xs-6">
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
                                                                                 <label for="phone"
                                                                                         class="form-label mb-8 h6">Phone
                                                                                         Number</label>
@@ -666,7 +678,124 @@
                                                                                         id="phone"
                                                                                         placeholder="Enter Phone Number">
                                                                         </div>
-                                                                        <div class="col-12">
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="National"
+                                                                                        class="form-label mb-8 h6">National
+                                                                                        ID No.</label>
+                                                                                <input type="number"
+                                                                                        class="form-control py-11"
+                                                                                        name="National" id="National"
+                                                                                        placeholder="National ID No">
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="BirthDate"
+                                                                                        class="form-label mb-8 h6">Date
+                                                                                        Of Birth</label>
+                                                                                <div class="position-relative">
+                                                                                        <input class="form-control radius-8 bg-base py-11"
+                                                                                                id="BirthDate"
+                                                                                                type="date">
+                                                                                        <span
+                                                                                                class="position-absolute end-0 top-50 translate-middle-y me-12 line-height-1"></span>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="Blood"
+                                                                                        class="form-label mb-8 h6">Blood
+                                                                                        Group</label>
+                                                                                <div class="position-relative">
+                                                                                        <select id="Blood"
+                                                                                                class="form-select py-9 placeholder-13 text-15">
+
+                                                                                                <option value="2">
+                                                                                                        A+
+                                                                                                </option>
+                                                                                                <option value="2">
+                                                                                                        A-
+                                                                                                </option>
+                                                                                                <option value="2">
+                                                                                                        B+
+                                                                                                </option>
+                                                                                                <option value="2">
+                                                                                                        B-
+                                                                                                </option>
+                                                                                                <option value="2">O+
+                                                                                                </option>
+                                                                                                <option value="2">O-
+                                                                                                </option>
+                                                                                                <option value="2"
+                                                                                                        selected>AB+
+                                                                                                </option>
+                                                                                                <option value="2">AB-
+                                                                                                </option>
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="Gender"
+                                                                                        class="form-label mb-8 h6">Gender</label>
+                                                                                <div class="position-relative">
+                                                                                        <select id="Gender"
+                                                                                                class="form-select py-9 placeholder-13 text-15">
+
+                                                                                                <option value="2">
+                                                                                                        Female
+                                                                                                </option>
+                                                                                                <option selected
+                                                                                                        value="2">
+                                                                                                        Male
+                                                                                                </option>
+
+                                                                                                <option value="2">Others
+                                                                                                </option>
+
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="Religion"
+                                                                                        class="form-label mb-8 h6">Religion</label>
+                                                                                <div class="position-relative">
+                                                                                        <select id="Religion"
+                                                                                                class="form-select py-9 placeholder-13 text-15">
+
+                                                                                                <option value="2">
+                                                                                                        Islam
+                                                                                                </option>
+                                                                                                <option selected
+                                                                                                        value="2">
+                                                                                                        Hindu
+                                                                                                </option>
+                                                                                                <option value="2">
+                                                                                                        Christian
+                                                                                                </option>
+                                                                                                <option value="2">
+                                                                                                        Buddhist
+                                                                                                </option>
+                                                                                                <option value="2">Others
+                                                                                                </option>
+
+                                                                                        </select>
+                                                                                </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="Occupation "
+                                                                                        class="form-label mb-8 h6">Occupation</label>
+                                                                                <input type="Occupation "
+                                                                                        class="form-control py-11"
+                                                                                        id="Occupation "
+                                                                                        placeholder="Enter Occupation ">
+                                                                        </div>
+                                                                        <div class="col-sm-6 col-lg-3 col-xs-6">
+                                                                                <label for="city"
+                                                                                        class="form-label mb-8 h6">City</label>
+                                                                                <input type="city"
+                                                                                        class="form-control py-11"
+                                                                                        id="city"
+                                                                                        placeholder="City name ">
+                                                                        </div>
+                                                                        <div class="col-12 col-lg-6">
                                                                                 <label for="imageUpload"
                                                                                         class="form-label mb-8 h6">Your
                                                                                         Photo</label>
@@ -703,21 +832,59 @@
                                                                                         </div>
                                                                                 </div>
                                                                         </div>
+                                                                        <div class="col-12 col-lg-6">
+                                                                                <div class="editor">
+                                                                                        <label
+                                                                                                class="form-label mb-8 h6">Your Bio</label>
+                                                                                        <div id="editor">
+                                                                                                <p>Hi I'm Bikrom Roy, It
+                                                                                                        will be as
+                                                                                                        simple as
+                                                                                                        Occidental; in
+                                                                                                        fact, it will be
+                                                                                                        Occidental. To
+                                                                                                        an English
+                                                                                                        person, it will
+                                                                                                        seem like
+                                                                                                        simplified
+                                                                                                        English, as a
+                                                                                                        skeptical
+                                                                                                        Cambridge friend
+                                                                                                        of mine told me
+                                                                                                        what Occidental
+                                                                                                        is European
+                                                                                                        languages are
+                                                                                                        members of the
+                                                                                                        same family. You
+                                                                                                        always want to
+                                                                                                        make sure that
+                                                                                                        your fonts work
+                                                                                                        well together
+                                                                                                        and try to
+                                                                                                        limit the number
+                                                                                                        of fonts you use
+                                                                                                        to is
+                                                                                                        .
+                                                                                                </p>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
                                                                         <div class="col-sm-6 col-xs-6">
-                                                                                <label for="role"
-                                                                                        class="form-label mb-8 h6">Role</label>
+                                                                                <label for="Present"
+                                                                                        class="form-label mb-8 h6">Present Address</label>
                                                                                 <input type="text"
                                                                                         class="form-control py-11"
-                                                                                        id="role"
+                                                                                        id="Present"
+                                                                                        name="Present"
                                                                                         placeholder="Enter Role">
                                                                         </div>
                                                                         <div class="col-sm-6 col-xs-6">
-                                                                                <label for="zip"
-                                                                                        class="form-label mb-8 h6">ZIP
-                                                                                        Code</label>
+                                                                                <label for="Permanent"
+                                                                                        class="form-label mb-8 h6">Permanent Address</label>
                                                                                 <input type="number"
                                                                                         class="form-control py-11"
-                                                                                        id="zip"
+                                                                                        id="Permanent"
+                                                                                        name="Permanent"
                                                                                         placeholder="Enter ZIP Code">
                                                                         </div>
                                                                         <div class="col-12">
